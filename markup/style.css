@@ -1,0 +1,292 @@
+body,html {
+	margin: 0;
+	min-width: 320px;
+	font-family: "PT Sans Narrow", "PT Sans", Arial;
+}
+
+.container {
+	max-width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+header {
+	background-color: #ef4343;
+	height: 63px;
+	width: 100%;
+	margin-bottom: 27px;
+}
+
+footer {
+	background-color: #ef4343;
+	height: 63px;
+	width: 100%;
+	margin-top: 100px;
+	color: white;
+}
+
+.footer_text {
+	float: left;
+	display: block;
+	margin-top: 20px;
+}
+
+.footer_email {
+	float: right;
+	display: block;
+	margin-top: 20px;
+	text-decoration: none;
+	color: white;
+} 
+
+.header_logo {
+	display: block;
+	background-image: url("images/logo.png");
+	width: 174px;
+	height: 38px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto; 
+	padding-top: 13px;
+}
+
+.quest_card-main {
+	width: 100%;
+	height: 230px;
+	background-image: url("images/quest_img.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 27px;
+	position: relative;
+}
+
+.quest_card-label {
+	position: absolute;
+	display: block;
+	height: 25px;
+	width: auto;
+	text-align: center;
+	padding: 0 10px;
+	font-size: 20px;
+	color: white;
+}
+
+.quest_card-name {
+	left: 0;
+	top: 10px;
+	text-transform: uppercase;
+	background-color: rgba(239,67,67,0.7);
+}
+
+.quest_card-time {
+	right: 0;
+	top: 10px;
+	background-color: rgba(239,67,67,0.7);
+}
+
+.quest_cards-link {
+	right: 0;
+	bottom: 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	height: 30px;
+	padding-top: 5px;
+	width: 145px;
+	background-color: #ef4343;
+}
+
+.btn {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: 32px;
+	padding: 10px 0;
+	background-color: #ef4343;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	margin-bottom: 27px;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: "PT Sans Narrow", "PT Sans", Arial;
+	border-radius: 0;
+}
+
+.load_btn {
+	width: 240px;
+}
+
+.load_btn-icon {
+	display: inline-block;
+	width: 24px;
+	height: 29px;
+	background-image: url("images/load_more_icon.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: -5px;
+	margin-left: -5px;
+	margin-right: 5px;
+}
+
+.slicer_line {
+	display: block;
+	width: 90%;
+	height: 1px;
+	background-color: #ef4343;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 27px;
+}
+
+.new_quest-text {
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 27px;
+}
+
+.new_quest-text span {
+	font-weight: bold;
+	color: #ef4343;
+	display: block;
+}
+
+.quest_detail {
+	text-align: center;
+}
+.quest_detail-title {
+	display: block;
+	font-size: 35px;
+	text-transform: uppercase;
+	margin-bottom: 22px;
+}
+
+.quest_detail-text {
+	font-size: 23px;
+	text-align: center;
+	margin-bottom: 22px;
+}
+
+.quest_description-label {
+	font-size: 23px;
+}
+
+.quest_description-label span {
+	text-transform: uppercase;
+}
+
+.quest_description-label text {
+	color: #ef4343;
+}
+
+.quest_description-start {
+	margin-top: 27px;
+	margin-bottom: 27px;
+}
+
+.quest_description-start span {
+	display: block;
+}
+
+.start_quest-btn {
+	font-size: 47px;
+	height: 70px;
+	letter-spacing: 10px;
+	padding-top: 20px;
+	width: 90%;
+}
+
+.quest_detail-img {
+	width: 100%;
+	max-width: 1280px;
+	max-height: 600px;
+	margin-bottom: 15px;
+}
+
+.quest_question {
+	text-align: center;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.submit_btn {
+	border: none;
+	width: 100%;
+	font-family: "PT Sans Narrow", "PT Sans", Arial;
+	height: auto;
+}
+
+.quest_question-form input[type="text"] {
+	width: 100%;
+	border: 1px solid #ef4343;
+	font-size: 23px;
+	font-family: "PT Sans Narrow", "PT Sans", Arial;
+	height: 50px;
+	margin-bottom: 22px;
+	padding-right: 10px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+.quest_question-error {
+	display: block;
+	color: #ef4343;
+	margin-bottom: 22px;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.quest_help {
+	text-align: center;
+}
+
+.quest_help-label {
+	font-size: 29px;
+	width: 60%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.quest_help-text {
+	font-size: 23px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.quest_help-icon {
+	display: block;
+	width: 80px;
+	height: 80px;
+	background-image: url("images/help_icon.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+}
+
+.quest_detail-title b {
+	font-weight: normal;
+	color: lightgrey;
+} 
+
+.next_task-btn {
+	width: 90%;
+}
+
+input {
+	border-radius: 0;
+}
+
+.hidden {
+	display: none;
+}
